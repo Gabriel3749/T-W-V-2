@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css   ">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Histórico</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="titulo">
+            <h1>Jogo da Velha</h1>
+        </section>
+
+        <section class="matriz">
+            <section class="grid" id="c11" onclick="joga(this.id);"></section>
+            <section class="grid" id="c12" onclick="joga(this.id);"></section>
+            <section class="grid" id="c13" onclick="joga(this.id);"></section>
+            <section class="grid" id="c14" onclick="joga(this.id);"></section>
+            <section class="grid" id="c15" onclick="joga(this.id);"></section>
+            <section class="grid" id="c16" onclick="joga(this.id);"></section>
+            <section class="grid" id="cl7" onclick="joga(this.id);"></section>
+            <section class="grid" id="c18" onclick="joga(this.id);"></section>
+            <section class="grid" id="c19" onclick="joga(this.id);"></section>
+        </section>
+
+        <section class="renova">
+            <button class="reinicia">Reiniciar</button>
+        </section>
+    </main>
+    <footer>Made by Weder</footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

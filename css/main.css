@@ -1,0 +1,46 @@
+:root {
+    --cor-fundo: rgb(255, 132, 0);
+    --cor-fundo-dark: rgb(243, 101, 0);
+    --cor-fonte: rgb(255, 255, 255);
+}
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.matriz {
+    display: grid;
+    grid-template-columns: repeat(3, 150px) ;
+    grid-template-rows: repeat(3, 150px);
+       max-width: 500px;
+}
+
+.grid{
+    border: 2px solid blue;
+    min-height: 100px;
+    min-width: 100px;
+    background-color:var(--cor-fundo);
+    cursor: pointer;
+}
+
+.reinicia {
+    cursor: pointer;
+    background: var(--cor-fundo);
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    color: var(--cor-fonte);
+    font-size: 20px;
+
+}
